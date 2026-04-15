@@ -3,6 +3,10 @@
 ## Project Overview
 This project predicts whether a customer is likely to churn using machine learning.
 
+## Live Demo
+Try the live app here:
+https://churn-prediction-xxxxx.streamlit.app
+
 ## Tech Stack
 - Python
 - Pandas
