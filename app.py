@@ -4,9 +4,9 @@ import joblib
 
 def local_css(file_name):
     with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        st.markdown(f"<styles>{f.read()}</styles>", unsafe_allow_html=True)
 
-local_css("styles/style.css")
+local_css("styles/styles.css")
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
