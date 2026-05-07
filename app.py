@@ -2,6 +2,18 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+local_css("styles/style.css")
+
+st.set_page_config(
+    page_title="Customer Churn Prediction",
+    page_icon="📊",
+    layout="centered"
+)
+
 model = joblib.load("model.pkl")
 
 st.title("Customer Churn Prediction")
