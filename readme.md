@@ -35,7 +35,7 @@ The model achieves strong overall accuracy while balancing precision and recall 
 
 ### Confusion Matrix
 
-![Confusion Matrix](images/confusion matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 ---
 
